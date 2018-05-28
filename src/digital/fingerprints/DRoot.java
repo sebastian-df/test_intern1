@@ -1,7 +1,7 @@
 package digital.fingerprints;
 
 /*
-Celem zadania jest rozwiązać poniższe zadanie oraz napisać zestaw unit testów, który pokryje w 100% kod rozwiązania.
+Celem jest rozwiązać poniższe zadanie oraz napisać zestaw unit testów, który pokryje w 100% kod rozwiązania.
 
 
 Sum of digits / Digital root
