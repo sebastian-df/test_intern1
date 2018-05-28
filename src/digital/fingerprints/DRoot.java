@@ -1,8 +1,7 @@
 package digital.fingerprints;
 
 /*
-Celem jest rozwiązać poniższe zadanie oraz napisać zestaw unit testów, który pokryje w 100% kod rozwiązania.
-
+Przetestuj kod rozwiązania poniższego zadania:
 
 Sum of digits / Digital root
 
@@ -38,6 +37,11 @@ digital_root(493193)
 
 public class DRoot {
     public static int digital_root(int n) {
-        // ...
+        int result = 0;
+        while (n != 0) {
+            result += n % 10;
+            n = n / 10;
+        }
+        return result;
     }
 }
